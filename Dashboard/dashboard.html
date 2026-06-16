@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pabili Finder - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="dashboard-wrapper">
+    
+    <!-- Fixed Top Navigation Bar -->
+    <header class="top-navbar">
+      <div class="brand-group">
+        <svg viewBox="0 0 100 100" class="nav-logo">
+          <path d="M50 12 L88 31 L50 50 L12 31 Z" fill="#0084ff" />
+          <path d="M50 50 L88 31 L88 71 L50 90 Z" fill="#ffb700" />
+          <path d="M50 50 L12 31 L12 71 L50 90 Z" fill="#ff0066" />
+          <path d="M50 31 L74 41 L50 52 L26 41 Z" fill="#004ea3" opacity="0.25" />
+        </svg>
+        <span class="nav-title">Pabili Finder</span>
+      </div>
+    </header>
+
+    <!-- Main Work Compartment Split -->
+    <div class="main-body">
+      
+      <!-- Navigation Menu (Horizontal strip on mobile, sidebar on desktop) -->
+      <aside class="sidebar">
+        <nav class="sidebar-menu">
+          <a href="#" class="menu-item active">Dashboard</a>
+          <a href="#" class="menu-item">Stores</a>
+          <a href="#" class="menu-item">Settings</a>
+          <a href="#" class="menu-item">Account</a>
+        </nav>
+      </aside>
+
+      <!-- Main Workspace Container -->
+      <main class="products-viewport">
+        
+        <!-- 1. Search Bar at the Very Top -->
+        <div class="workspace-search-container">
+          <span class="search-icon">🔍</span>
+          <input type="text" placeholder="Search" class="workspace-search-input" />
+        </div>
+
+        <!-- 2. Header Labels underneath Search Bar -->
+        <div class="section-label-header">
+          <h2 class="main-label">All Items</h2>
+          <p class="sub-label">Items detail Information</p>
+        </div>
+        
+        <!-- 3. Scrollable Product Cards Grid Container -->
+        <div class="scroll-panel-wrapper">
+          <div class="products-grid">
+            
+            <!-- Item 1 -->
+            <div class="product-card">
+              <div class="img-frame">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROngPeyf9H1ye25EErA47LdcEuG-TBeW9VA8JZ4lRPaw&s=10" alt="Nestea" class="product-img" />
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Nestea Lemon</h3>
+                <p class="product-info"><span class="info-tag">Type:</span> Powdered Drink</p>
+                <p class="product-info"><span class="info-tag">Store:</span> Jai's Store</p>
+                <p class="product-info"><span class="info-tag">Amount:</span> 4</p>
+                <span class="status-badge low-stock">Status: Low Stock</span>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="product-card">
+              <div class="img-frame">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmP7EFE1ltgc3QrVEwpZNs2bvK5FhNTVMqmV_IwhbuQ&s=10" alt="Beefloaf" class="product-img" />
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Holiday Beefloaf</h3>
+                <p class="product-info"><span class="info-tag">Type:</span> Canned Food</p>
+                <p class="product-info"><span class="info-tag">Store:</span> Kayi's Store</p>
+                <p class="product-info"><span class="info-tag">Amount:</span> 11</p>
+                <span class="status-badge available">Status: Available</span>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="product-card">
+              <div class="img-frame">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQAf9souYABc3OVhYmrlW9TWPCc1Qe4nOHHDgnX4YVvg&s=10" alt="Nescafe" class="product-img" />
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Nescafe Classic</h3>
+                <p class="product-info"><span class="info-tag">Type:</span> Powdered Drink</p>
+                <p class="product-info"><span class="info-tag">Store:</span> Analie's Store</p>
+                <p class="product-info"><span class="info-tag">Amount:</span> 8</p>
+                <span class="status-badge low-stock">Status: Low Stock</span>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="product-card">
+              <div class="img-frame">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBxl_nYVoSEUm9QrU1CzHuuE5jqzng4k7cifs2987_Ww&s=10" alt="Nissin Noodles" class="product-img" />
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Nissin Cup Noodles</h3>
+                <p class="product-info"><span class="info-tag">Type:</span> Instant Food</p>
+                <p class="product-info"><span class="info-tag">Store:</span> Analie's Store</p>
+                <p class="product-info"><span class="info-tag">Amount:</span> 15</p>
+                <span class="status-badge available">Status: Available</span>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="product-card">
+              <div class="img-frame">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWbNpXuUPSNVT0r2RBF2tyfkyWTKefgL9nwa_Uixc-7w&s=10" alt="Tang" class="product-img" />
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Tang Orange</h3>
+                <p class="product-info"><span class="info-tag">Type:</span> Powdered Drink</p>
+                <p class="product-info"><span class="info-tag">Store:</span> KAJIE'S Mart</p>
+                <p class="product-info"><span class="info-tag">Amount:</span> 20</p>
+                <span class="status-badge low-stock">Status: Low Stock</span>
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="product-card">
+              <div class="img-frame">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU7r-3nhcBH387q0id--Fhh2_ZYMNEWvy3OsDYdQ82GA&s=10" alt="Surf" class="product-img" />
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Surf Cherry Blossom</h3>
+                <p class="product-info"><span class="info-tag">Type:</span> Cleaning</p>
+                <p class="product-info"><span class="info-tag">Store:</span> Jaffy's Store</p>
+                <p class="product-info"><span class="info-tag">Amount:</span> 24</p>
+                <span class="status-badge available">Status: Available</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </main>
+
+    </div>
+  </div>
+
+</body>
+</html>
