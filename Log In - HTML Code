@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pabili Finder - Log In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <div class="translucent-card">
+      
+      <div class="brand-container">
+        <svg viewBox="0 0 100 100" class="logo-svg">
+          <path d="M50 12 L88 31 L50 50 L12 31 Z" fill="#0084ff" />
+          <path d="M50 50 L88 31 L88 71 L50 90 Z" fill="#ffb700" />
+          <path d="M50 50 L12 31 L12 71 L50 90 Z" fill="#ff0066" />
+          <path d="M50 31 L74 41 L50 52 L26 41 Z" fill="#004ea3" opacity="0.25" />
+        </svg>
+        <h1 class="app-title">Pabili Finder</h1>
+      </div>
+
+      <form id="loginForm" class="login-form">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="Enter your email..." 
+            autocomplete="email"
+            required 
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input 
+            type="password" 
+            id="password" 
+            placeholder="Enter your password..." 
+            autocomplete="current-password"
+            required 
+          />
+        </div>
+
+        <a href="products.html" class="login-btn">Log In</a>
+      </form>
+
+    </div>
+  </div>
+
+</body>
+</html>
